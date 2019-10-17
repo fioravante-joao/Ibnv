@@ -1,0 +1,122 @@
+/*NavBar*/
+.nvbar-direita{
+    margin-left: 80%;
+    color: #006400;
+}
+
+
+/*----HR-----*/
+hr{
+    margin-bottom: 0rem !important;
+    margin-top: -8px !important;
+    background-color: #008000;
+    padding: 1px;
+}
+
+
+/*Cor do Backgorund  Container*/
+.color-backgroundcont{
+    background-color: white !important;
+}
+
+/*Cor verde*/
+.corVerde{
+  color: #008000;
+}
+
+/*Footer 2*/
+.footer2 {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    margin-top: 10em;
+ }
+/*Footer 2 img*/
+#imgfooter{
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Footer*/
+.footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111010;
+    color: white;
+    text-align: center;
+ }
+
+
+ /*Cor das Fontes*/
+ .fonte-black{
+     color:#006400 !important;
+ }
+
+
+
+ /*Estilos dos links com hover*/
+ a:hover {
+    color: #633309 !important;
+    font-weight: bold !important;
+  }
+
+/*View fotos*/
+  .coluna{
+    float: left !important;
+    width: 33.33% !important;
+  }
+  .row::after {
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+  }
+  .tituloGaleria{
+    font: normal 25pt;
+    color: #176400;
+    text-align: center;
+    padding: 15pt;
+  }
+
+
+ ********************** /*View Quadro de Missionarios*/ **************************************
+  .text-center{
+    text-align: center;
+  }
+  .text-right{
+    text-align: right;
+  }
+  
+  /*Background Image*/
+  #image-center{
+    background-image: url("../img/MAPA-MUNDI-VETOR-1.jpg");
+    background-color: white;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+**************************************************
+
+/*Imag Carousel*/
+.container img {
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+.imgcarosel{
+  /*border: 5px solid rgb(255, 255, 255);*/
+  /*border-radius: 15px;*/
+  /*box-shadow: 1px 1px 5px black;*/ 
+}
