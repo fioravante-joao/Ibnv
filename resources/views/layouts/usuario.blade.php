@@ -134,8 +134,7 @@
 <!--Footer Informações-->
 <div class="footer2">
   <section>
-  <img id="imgfooter" src="{{ asset('img/logo.png') }}" />
-
+  <img id="imgfooter" src="{{ asset('img/logo.png') }}" />  
   </section>
 </div>
 <!--Footer-->
