@@ -52,11 +52,15 @@
   </fieldset>
 </section><br />
 
+<div class="container">
+  <hr />
+</div><br />
+
 <!--****** Início de cards ******-->
 <div class="container">
   <div class="card-group">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Ouça ao Vivo</h5>
         <p class="card-text">This is atitle wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -64,24 +68,62 @@
       </div>
     </div>
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Assistir Desenhos da Biblía</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Como Chegar ao Céu</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
   </div>
-</div>
-<div class="embed-responsive-item">
-  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.1424755577846!2d-46.74934848563854!3d-23.635064270201926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x536be446a7140318!2sIgreja%20Batista%20Nova%20Vida!5e0!3m2!1spt-BR!2sbr!4v1571969069946!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div><br />
+
+<div class="container">
+  <hr />
+</div><br />
+
+<div class="container">
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ouça ao Vivo</h5>
+        <p class="card-text">This is atitle wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Assistir Desenhos da Biblía</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ asset('img/IMG-20190916-WA0027.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Como Chegar ao Céu</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div><br />
+
+<div class="container">
+  <hr />
+</div><br />
+
+<div class="container embed-responsive-item">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3655.142582096041!2d-46.7493485!3d-23.6350643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x536be446a7140318!2sIgreja%20Batista%20Nova%20Vida!5e0!3m2!1spt-BR!2sbr!4v1572057933426!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div>
 @endsection
