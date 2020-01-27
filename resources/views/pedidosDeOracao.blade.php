@@ -2,7 +2,7 @@
 @extends('layouts.usuario')
 
 @section('content')
-<form class="container">
+<form action="enviar_mensagem_php" method="post" id="form_contato" class="container">
   <div class="form-group col-md-6">
     <label for="exampleFormControlInput1">Seu Email</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
